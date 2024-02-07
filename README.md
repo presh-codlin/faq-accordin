@@ -33,7 +33,7 @@ I was able to implement the following:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/faqaccordin-6K-cVdqX5Y)
 - Live Site URL: [[Add live site URL here](https://presh-codlin.github.io/faq-accordin/)
 
 
