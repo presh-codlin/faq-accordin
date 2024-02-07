@@ -27,14 +27,14 @@ I was able to implement the following:
 
 ### Screenshot
 
-![](/faq-accordion-main/Screenshot_20240207-181121.png)
-![](/faq-accordion-main/Screenshot_20240207-181139.png)
+/Screenshot_20240207-181121.png
+![](/Screenshot_20240207-181139.png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://presh-codlin.github.io/faq-accordin/))
 
 
 ### The Process
