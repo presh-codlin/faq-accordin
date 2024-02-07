@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');       
+body{
+  height: 113vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: hsl(275, 100%, 97%);
+}
+.bg-wrapper{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg{
+  width: 100vw;
+  height: 30vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg2{
+  height: 70vh;
+  width: 100vw;
+  background-color: hsl(275, 100%, 97%);
+}
+img{
+  width: 22px;
+}
+.container{
+  width: 90%;
+  padding: 3px 20px 4px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  position: absolute;
+  top: 80px;
+  z-index: 100;
+  background-color:  hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.7);
+}
+h1{
+  display: flex;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+h1 span{
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-left: 1.3rem;
+}
+.faq_items{
+  margin-top: -20px;
+}
+.faq_item{
+  width: 100%;
+}
+.faq_item:not(:first-child){
+  border-top: 1px solid #E3E4EA;
+}
+.h_faq_item{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h_faq_item h4{
+  width: 80%;
+  font-size: 18px;
+  color: hsl(292, 42%, 14%);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  transition: all .7s;
+}
+.h_faq_item:hover h4, .h_faq_item:hover img {
+  color: #AD28EB;
+}
+.h_faq_item img{
+  width: 26px;
+}
+.faq_item.active .b_faq_item{
+  overflow: visible;
+  height: auto;
+}
+.b_faq_item{
+  width: 100%;
+  overflow: hidden;
+  height: 0px;
+}
+.b_faq_item p{
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: -8px;
+  color: hsl(292, 16%, 49%);
+  font-family: 'Work Sans', sans-serif;
+}
+
+@media only screen and (min-width:756px) and (max-width: 1440px){
+  body{
+    height: 100vh;
+  }
+  .bg-wrapper{
+    height: 100vh;
+  }
+  .container{
+    max-width: 460px;
+    top: 14%;
+    padding: 8px 28px 4px;
+  }
+  .bg{
+    height: 20vh;
+  }
+  .bg2{
+    height: 80vh;
+  }
+  .h_faq_item h4{
+    width: 90%;
+  }
+  .b_faq_item p {
+    font-size: 16px;
+  }
+}
